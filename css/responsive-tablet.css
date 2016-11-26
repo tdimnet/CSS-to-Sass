@@ -1,0 +1,103 @@
+/************************
+    MEDIA QUERIES
+************************/
+
+/* START: TABLET DEVICES */
+@media (min-width: 768px) {
+
+  /************************
+      HEADER & MAIN NAVIGATION
+  ************************/
+  #hamburger-img {
+    display: none;
+  }
+
+  .main-nav ul {
+    display: inline-flex !important;
+  }
+
+  .main-nav li {
+    background: initial;
+    padding: 0px 5px;
+  }
+
+
+
+  /************************
+      STUDENT PRESENTATION
+  ************************/
+
+  .student-presentation img {
+    float: left;
+    max-width: 40%;
+  }
+
+  .student-presentation p {
+    float: right;
+    max-width: 60%;
+    padding: 0px 5px;
+  }
+
+
+
+  /************************
+      STUDENT PORTFOLIO
+  ************************/
+  #projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .student-projects {
+    flex-basis: 50%;
+    padding: 0px 5px;
+  }
+
+
+
+  /************************
+      STUDENT SKILLS
+  ************************/
+
+  .student-skills {
+    padding: 0 10%;
+  }
+
+  .skills-quote {
+    border-bottom: 2px solid #ddd;
+  }
+
+  .student-skills p:nth-child(3) {
+    border-bottom: 2px solid #ddd;
+  }
+
+
+
+  /************************
+      STUDENT CONTACT PAGE
+  ************************/
+
+
+  /************************
+      FOOTER
+  ************************/
+
+  .to-top a {
+    display: none;
+  }
+
+  .footer-nav-items {
+    padding: 0px 5px;
+  }
+
+
+  .footer-nav-items a {
+    display: initial;
+  }
+
+  .footer-nav-items a:hover {
+    color: #777;
+  }
+}
+/* END: TABLET DEVICES */
