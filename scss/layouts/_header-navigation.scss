@@ -1,0 +1,22 @@
+.main-nav ul {
+  display: none;
+  padding-left: 0;
+}
+
+.main-nav li {
+  background: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-nav a {
+  font-weight: bold;
+  color: #000;
+  display: block;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  color: #777;
+}

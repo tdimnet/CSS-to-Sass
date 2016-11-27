@@ -1,0 +1,51 @@
+/************************
+    GENERAL
+************************/
+
+ * {
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+body {
+  background-color: #F7F5F0;
+}
+
+.main-wrapper {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+article {
+  margin-top: 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-size: 1.3em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,19 @@
+.footer-nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.footer-nav li:first-child {
+  margin-right: auto;
+}
+
+.footer-nav a {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.footer-nav-items a {
+  display: none;
+}

@@ -364,4 +364,164 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/*# sourceMappingURL=normalize.css.map */
+/************************
+    GENERAL
+************************/
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  background-color: #F7F5F0; }
+
+.main-wrapper {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto; }
+
+section {
+  margin-bottom: 100px;
+  text-align: center; }
+
+article {
+  margin-top: 50px; }
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-size: 1.3em; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+#hamburger-img {
+  position: absolute;
+  left: 5px;
+  top: 15px;
+  width: auto;
+  height: 30px;
+  cursor: pointer; }
+
+.page-header {
+  padding: 15px 0 30px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px; }
+
+.page-header h1 {
+  font-size: 1.4em;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.page-header h1 a {
+  color: #000; }
+
+.main-nav ul {
+  display: none;
+  padding-left: 0; }
+
+.main-nav li {
+  background: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.main-nav a {
+  font-weight: bold;
+  color: #000;
+  display: block;
+  text-transform: uppercase; }
+
+.main-nav a:hover {
+  color: #777; }
+
+footer {
+  border-top: 1px solid #bbb; }
+
+.footer-nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold; }
+
+.footer-nav li:first-child {
+  margin-right: auto; }
+
+.footer-nav a {
+  color: #000;
+  text-transform: uppercase; }
+
+.footer-nav-items a {
+  display: none; }
+
+.student-presentation {
+  text-align: center;
+  font-weight: 300; }
+
+.student-presentation img {
+  max-width: 80%; }
+
+.student-presentation p a {
+  color: #000;
+  font-weight: 400; }
+
+.student-presentation p a:hover {
+  text-decoration: underline; }
+
+.student-portfolio {
+  text-align: center; }
+
+.student-projects {
+  font-size: 1em; }
+
+.skills-quote {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic; }
+
+.skills-quote span {
+  font-weight: bold; }
+
+.student-skills p:nth-child(3),
+.student-skills p:nth-child(4) {
+  text-align: justify; }
+
+.technical-skills {
+  padding-left: 0;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.technical-skills li {
+  border: 2px solid #999;
+  padding: 5px;
+  margin: 5px; }
+
+.student-contact-page {
+  text-align: center;
+  font-weight: 300; }
+
+.contact-student-items {
+  padding-left: 0; }
+
+.contact-student-items a {
+  margin-left: 10px;
+  color: #000;
+  font-weight: 400; }
+
+.contact-student-items a:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
