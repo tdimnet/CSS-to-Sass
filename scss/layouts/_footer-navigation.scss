@@ -1,5 +1,5 @@
 .footer-nav ul {
-  padding-left: 0;
+  @extend %no-padding;
   display: flex;
   justify-content: space-around;
   font-weight: bold;
@@ -10,8 +10,8 @@
 }
 
 .footer-nav a {
+  @extend %to-upper;
   color: #000;
-  text-transform: uppercase;
 }
 
 .footer-nav-items a {

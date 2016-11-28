@@ -1,6 +1,6 @@
 .main-nav ul {
+  @extend %no-padding;
   display: none;
-  padding-left: 0;
 }
 
 .main-nav li {
@@ -11,10 +11,10 @@
 }
 
 .main-nav a {
+  @extend %to-upper;
   font-weight: bold;
   color: #000;
   display: block;
-  text-transform: uppercase;
 }
 
 .main-nav a:hover {

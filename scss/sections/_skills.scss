@@ -1,5 +1,5 @@
 .skills-quote {
-  text-align: center;
+  @extend %centered;
   font-weight: 300;
   font-style: italic;
 }
@@ -15,7 +15,7 @@
 
 .technical-skills {
   padding-left: 0;
-  text-align: center;
+  @extend %centered;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;

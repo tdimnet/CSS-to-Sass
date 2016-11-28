@@ -400,11 +400,6 @@ a {
 li {
   list-style: none; }
 
-.clearfix::after {
-  content: " ";
-  display: table;
-  clear: both; }
-
 #hamburger-img {
   position: absolute;
   left: 5px;
@@ -416,7 +411,7 @@ li {
 .page-header {
   padding: 15px 0 30px;
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #bbb;
   margin-bottom: 50px; }
 
 .page-header h1 {
@@ -428,8 +423,7 @@ li {
   color: #000; }
 
 .main-nav ul {
-  display: none;
-  padding-left: 0; }
+  display: none; }
 
 .main-nav li {
   background: #fff;
@@ -440,8 +434,7 @@ li {
 .main-nav a {
   font-weight: bold;
   color: #000;
-  display: block;
-  text-transform: uppercase; }
+  display: block; }
 
 .main-nav a:hover {
   color: #777; }
@@ -450,7 +443,6 @@ footer {
   border-top: 1px solid #bbb; }
 
 .footer-nav ul {
-  padding-left: 0;
   display: flex;
   justify-content: space-around;
   font-weight: bold; }
@@ -459,14 +451,18 @@ footer {
   margin-right: auto; }
 
 .footer-nav a {
-  color: #000;
-  text-transform: uppercase; }
+  color: #000; }
 
 .footer-nav-items a {
   display: none; }
 
+.main-nav ul, .footer-nav ul {
+  padding-left: 0; }
+
+.main-nav a, .footer-nav a {
+  text-transform: uppercase; }
+
 .student-presentation {
-  text-align: center;
   font-weight: 300; }
 
 .student-presentation img {
@@ -479,14 +475,10 @@ footer {
 .student-presentation p a:hover {
   text-decoration: underline; }
 
-.student-portfolio {
-  text-align: center; }
-
 .student-projects {
   font-size: 1em; }
 
 .skills-quote {
-  text-align: center;
   font-weight: 300;
   font-style: italic; }
 
@@ -499,7 +491,6 @@ footer {
 
 .technical-skills {
   padding-left: 0;
-  text-align: center;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center; }
@@ -510,7 +501,6 @@ footer {
   margin: 5px; }
 
 .student-contact-page {
-  text-align: center;
   font-weight: 300; }
 
 .contact-student-items {
@@ -523,5 +513,13 @@ footer {
 
 .contact-student-items a:hover {
   text-decoration: underline; }
+
+.student-presentation, .student-portfolio, .skills-quote, .technical-skills, .student-contact-page {
+  text-align: center; }
+
+.student-presentation::after {
+  content: " ";
+  display: table;
+  clear: both; }
 
 /*# sourceMappingURL=main.css.map */

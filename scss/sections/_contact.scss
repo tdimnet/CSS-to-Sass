@@ -1,8 +1,7 @@
 .student-contact-page {
-  text-align: center;
+  @extend %centered;
   font-weight: 300;
 }
-
 
 .contact-student-items {
   padding-left: 0;

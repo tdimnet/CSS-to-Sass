@@ -1,5 +1,6 @@
 .student-presentation {
-  text-align: center;
+  @extend %centered;
+  @extend %clearfix;
   font-weight: 300;
 }
 

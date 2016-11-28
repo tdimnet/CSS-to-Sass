@@ -1,5 +1,5 @@
 .student-portfolio {
-  text-align: center;
+  @extend %centered;
 }
 
 .student-projects {
