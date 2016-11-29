@@ -2,10 +2,10 @@
   @extend %centered;
   font-weight: 300;
   font-style: italic;
-}
-
-.skills-quote span {
-  font-weight: bold;
+  // Only targets the author of the quote (Mahatma Gandhi)
+  & span {
+    font-weight: bold;
+  }
 }
 
 .student-skills p:nth-child(3),
@@ -19,10 +19,10 @@
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.technical-skills li {
-  border: 2px solid #999;
-  padding: 5px;
-  margin: 5px;
+  // Only targets the list of skills
+  & li {
+    border: 2px solid #999;
+    padding: 5px;
+    margin: 5px;
+  }
 }

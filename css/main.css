@@ -413,14 +413,12 @@ li {
   text-align: center;
   border-bottom: 1px solid #bbb;
   margin-bottom: 50px; }
-
-.page-header h1 {
-  font-size: 1.4em;
-  margin-top: 0;
-  margin-bottom: 0; }
-
-.page-header h1 a {
-  color: #000; }
+  .page-header h1 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .page-header h1 a {
+    color: #000; }
 
 .main-nav ul {
   display: none; }
@@ -435,9 +433,8 @@ li {
   font-weight: bold;
   color: #000;
   display: block; }
-
-.main-nav a:hover {
-  color: #777; }
+  .main-nav a:hover {
+    color: #777; }
 
 footer {
   border-top: 1px solid #bbb; }
@@ -471,9 +468,8 @@ footer {
 .student-presentation p a {
   color: #000;
   font-weight: 400; }
-
-.student-presentation p a:hover {
-  text-decoration: underline; }
+  .student-presentation p a:hover {
+    text-decoration: underline; }
 
 .student-projects {
   font-size: 1em; }
@@ -481,9 +477,8 @@ footer {
 .skills-quote {
   font-weight: 300;
   font-style: italic; }
-
-.skills-quote span {
-  font-weight: bold; }
+  .skills-quote span {
+    font-weight: bold; }
 
 .student-skills p:nth-child(3),
 .student-skills p:nth-child(4) {
@@ -494,11 +489,10 @@ footer {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.technical-skills li {
-  border: 2px solid #999;
-  padding: 5px;
-  margin: 5px; }
+  .technical-skills li {
+    border: 2px solid #999;
+    padding: 5px;
+    margin: 5px; }
 
 .student-contact-page {
   font-weight: 300; }
@@ -510,9 +504,8 @@ footer {
   margin-left: 10px;
   color: #000;
   font-weight: 400; }
-
-.contact-student-items a:hover {
-  text-decoration: underline; }
+  .contact-student-items a:hover {
+    text-decoration: underline; }
 
 .student-presentation, .student-portfolio, .skills-quote, .technical-skills, .student-contact-page {
   text-align: center; }

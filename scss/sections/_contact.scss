@@ -11,8 +11,8 @@
   margin-left: 10px;
   color: #000;
   font-weight: 400;
-}
-
-.contact-student-items a:hover {
-  text-decoration: underline;
+  // Only targets the a tags (phone & e-mail)
+  &:hover {
+    text-decoration: underline;
+  }
 }

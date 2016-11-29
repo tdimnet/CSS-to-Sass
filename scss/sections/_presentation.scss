@@ -11,8 +11,8 @@
 .student-presentation p a {
   color: #000;
   font-weight: 400;
-}
-
-.student-presentation p a:hover {
-  text-decoration: underline;
+  // Only targets the a tags on hover
+  &:hover {
+    text-decoration: underline;
+  }
 }
