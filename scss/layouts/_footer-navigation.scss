@@ -11,7 +11,7 @@
 
 .footer-nav a {
   @extend %to-upper;
-  color: #000;
+  color: $color-link-default;
 }
 
 .footer-nav-items a {

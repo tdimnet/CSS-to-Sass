@@ -1,7 +1,7 @@
 .page-header {
   padding: 15px 0 30px;
   text-align: center;
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid $color-border-light;
   margin-bottom: 50px;
 
   // Only have one h1 tag on my document
@@ -12,6 +12,6 @@
   }
 
   & h1 a {
-    color: #000;
+    color: $color-link-default;
   }
 }

@@ -4,7 +4,7 @@
 }
 
 .main-nav li {
-  background: #fff;
+  background: $background-color-main-nav;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -13,11 +13,11 @@
 .main-nav a {
   @extend %to-upper;
   font-weight: bold;
-  color: #000;
+  color: $color-link-default;
   display: block;
 
   // Only target my a tags inside .main-nav
   &:hover {
-    color: #777;
+    color: $color-link-hover;
   }
 }

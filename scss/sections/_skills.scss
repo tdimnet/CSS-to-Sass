@@ -21,7 +21,7 @@
   justify-content: center;
   // Only targets the list of skills
   & li {
-    border: 2px solid #999;
+    border: 2px solid $color-border-dark;
     padding: 5px;
     margin: 5px;
   }
