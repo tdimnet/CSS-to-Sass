@@ -3,6 +3,10 @@
   text-align: center;
   border-bottom: 1px solid $color-border-light;
   margin-bottom: 50px;
+  @media #{$desktop} {
+    display: flex;
+    justify-content: space-between;
+  }
 
   // Only have one h1 tag on my document
   & h1 {

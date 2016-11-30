@@ -24,3 +24,9 @@ $color-border-dark          : $dusty-gray;
 // Font stacks
 $sans-serif : sans-serif;
 $open-sans  : 'Open Sans', $sans-serif;
+
+
+
+// Media query breakpoints
+$tablet   : '(min-width: 768px)';
+$desktop  : '(min-width: 1024px)';

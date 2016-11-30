@@ -1,6 +1,19 @@
 .main-nav ul {
   @extend %no-padding;
   display: none;
+  @media #{$tablet} {
+    display: inline-flex !important;
+  }
+  @media #{$desktop} {
+    align-self: center;
+  }
+}
+
+@media #{$desktop} {
+  .main-nav ul,
+  .main-nav li {
+    margin: 0;
+  }
 }
 
 .main-nav li {
@@ -8,6 +21,10 @@
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  @media #{$tablet} {
+    background: initial;
+    padding: 0px 5px;
+  }
 }
 
 .main-nav a {

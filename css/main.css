@@ -409,12 +409,19 @@ li {
   width: auto;
   height: 30px;
   cursor: pointer; }
+  @media (min-width: 768px) {
+    #hamburger-img {
+      display: none; } }
 
 .page-header {
   padding: 15px 0 30px;
   text-align: center;
   border-bottom: 1px solid #bbb;
   margin-bottom: 50px; }
+  @media (min-width: 1024px) {
+    .page-header {
+      display: flex;
+      justify-content: space-between; } }
   .page-header h1 {
     font-size: 1.4em;
     margin-top: 0;
@@ -424,12 +431,26 @@ li {
 
 .main-nav ul {
   display: none; }
+  @media (min-width: 768px) {
+    .main-nav ul {
+      display: inline-flex !important; } }
+  @media (min-width: 1024px) {
+    .main-nav ul {
+      align-self: center; } }
 
+@media (min-width: 1024px) {
+  .main-nav ul,
+  .main-nav li {
+    margin: 0; } }
 .main-nav li {
   background: #fff;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      background: initial;
+      padding: 0px 5px; } }
 
 .main-nav a {
   font-size: 1em;
@@ -450,11 +471,24 @@ footer {
 .footer-nav li:first-child {
   margin-right: auto; }
 
+@media (min-width: 768px) {
+  .to-top {
+    display: none; } }
+
 .footer-nav a {
   color: #000; }
 
+@media (min-width: 768px) {
+  .footer-nav-items {
+    padding: 0px 5px; } }
+
 .footer-nav-items a {
   display: none; }
+  @media (min-width: 768px) {
+    .footer-nav-items a {
+      display: initial; }
+      .footer-nav-items a:hover {
+        color: #777; } }
 
 .main-nav ul, .footer-nav ul {
   padding-left: 0; }
@@ -464,9 +498,17 @@ footer {
 
 .student-presentation {
   font-weight: 300; }
-
-.student-presentation img {
-  max-width: 80%; }
+  .student-presentation img {
+    max-width: 80%; }
+    @media (min-width: 768px) {
+      .student-presentation img {
+        float: left;
+        max-width: 40%; } }
+  @media (min-width: 768px) {
+    .student-presentation p {
+      float: right;
+      max-width: 60%;
+      padding: 0px 5px; } }
 
 .student-presentation p a {
   color: #000;
@@ -474,24 +516,52 @@ footer {
   .student-presentation p a:hover {
     text-decoration: underline; }
 
+@media (min-width: 768px) {
+  #projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+@media (min-width: 1024px) {
+  #projects {
+    margin-bottom: 0; } }
+
 .student-projects {
   font-size: 1em; }
+  @media (min-width: 768px) {
+    .student-projects {
+      flex-basis: 50%;
+      padding: 0px 5px; } }
+  @media (min-width: 1024px) {
+    .student-projects {
+      flex-basis: 33.3333%; }
+      .student-projects:hover {
+        transition: .30s;
+        background: #aaa;
+        color: #fff; } }
 
 .skills-quote {
   font-weight: 300;
   font-style: italic; }
+  @media (min-width: 768px) {
+    .skills-quote {
+      border-bottom: 2px solid #ddd; } }
   .skills-quote span {
     font-weight: bold; }
 
-.student-skills p:nth-child(3),
-.student-skills p:nth-child(4) {
+.student-skills p:nth-child(3) {
   text-align: justify; }
+  @media (min-width: 768px) {
+    .student-skills p:nth-child(3) {
+      border-bottom: 2px solid #ddd; } }
 
 .technical-skills {
   padding-left: 0;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center; }
+  @media (min-width: 768px) {
+    .technical-skills {
+      padding: 0 10%; } }
   .technical-skills li {
     border: 2px solid #999;
     padding: 5px;
