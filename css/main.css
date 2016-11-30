@@ -369,7 +369,7 @@ textarea {
 ************************/
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 body {
   background-color: #F7F5F0; }
@@ -387,9 +387,11 @@ article {
   margin-top: 50px; }
 
 h2 {
+  font-size: 1.3em;
+  line-height: 1.2;
+  font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 50px;
-  font-size: 1.3em; }
+  margin-bottom: 50px; }
 
 img {
   max-width: 100%; }
@@ -430,6 +432,7 @@ li {
   padding-bottom: 10px; }
 
 .main-nav a {
+  font-size: 1em;
   font-weight: bold;
   color: #000;
   display: block; }

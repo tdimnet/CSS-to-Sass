@@ -12,8 +12,7 @@
 
 .main-nav a {
   @extend %to-upper;
-  font-weight: bold;
-  color: $color-link-default;
+  @include text(1em, $weight: bold, $color: $color-link-default);
   display: block;
 
   // Only target my a tags inside .main-nav

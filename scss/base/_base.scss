@@ -4,7 +4,7 @@
 
  * {
    box-sizing: border-box;
-   font-family: 'Open Sans', sans-serif;
+   font-family: $open-sans;
  }
 
 body {
@@ -27,9 +27,9 @@ article {
 }
 
 h2 {
+  @include text(1.3em, 1.2, normal);
   text-transform: uppercase;
   margin-bottom: 50px;
-  font-size: 1.3em;
 }
 
 img {
