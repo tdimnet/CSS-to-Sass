@@ -15,6 +15,7 @@
     margin-bottom: 0;
   }
 
+  // I keep the "& h1 a" complete for a better comprehension
   & h1 a {
     color: $color-link-default;
   }
